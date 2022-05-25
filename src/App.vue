@@ -1,29 +1,38 @@
-<script setup>
+<script>
 import { RouterLink, RouterView } from "vue-router";
-import HelloWorld from "@/components/HelloWorld.vue";
+import Navbar from "@/components/Navbar.vue";
+import Footer from "@/components/Footer.vue";
+
+export default {
+  components: {
+    Navbar,
+    Footer
+  },
+  data() {
+    return { 
+      logo_src: "/img/logo.png",
+      app_name: "Make Your Burger"
+     }
+  }
+}
+
 </script>
 
 <template>
   <header>
-    <img
+    <!-- <img
       alt="Vue logo"
       class="logo"
       src="@/assets/logo.svg"
       width="125"
       height="125"
-    />
+    /> -->
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
+      <Navbar :logo="logo_src" :alt="app_name"></Navbar>
+      <Footer></Footer>
     </div>
   </header>
-
-  <RouterView />
 </template>
 
 <style>
