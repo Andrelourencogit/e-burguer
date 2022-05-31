@@ -77,5 +77,18 @@
       "tipo": "Finalizado"
     }
   ],
-  "burgers": []
+  "burgers": [
+    {
+      "nome": "André Luís Lourenço De Freitas",
+      "carne": "Picanha",
+      "pao": "Italiano Branco",
+      "opcionais": [
+        "Pepino",
+        "Tomate",
+        "Cheddar"
+      ],
+      "status": "Finalizado",
+      "id": 1
+    }
+  ]
 }
