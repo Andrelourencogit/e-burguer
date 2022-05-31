@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="main-container">
     <h1>This is pedidos</h1>
   </div>
 </template>
@@ -13,3 +13,4 @@
   }
 }
 </style>
+
