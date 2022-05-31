@@ -10,7 +10,7 @@ defineProps([
   <div>
     <div id="nav">
       <RouterLink id="logo-url" to="/"><img id="logo" :src="logo" :alt="alt"></RouterLink>
-      <RouterLink to="/">Fazer Pedido</RouterLink>
+      <RouterLink to="/">Home</RouterLink>
       <RouterLink to="/pedidos">Pedidos</RouterLink>
     </div>
   </div>
