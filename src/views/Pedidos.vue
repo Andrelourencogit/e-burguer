@@ -1,16 +1,18 @@
 <template>
-  <div class="main-container">
-    <h1>This is pedidos</h1>
+  <div>
+    <div class="main-container">
+      <h1>Gerenciar pedidos:</h1>
+      <Dashboard />
+    </div>
   </div>
 </template>
 
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
+<script>
+import Dashboard from "@/components/Dashboard.vue";
+export default {
+  name: 'Pedidos',
+  components: {
+    Dashboard
   }
 }
-</style>
-
+</script>
